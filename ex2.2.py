@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import json
 
 sys.setrecursionlimit(20000)
-with open('Assignment-2/ex2.5.json', 'r') as inf:
+with open('ex2.5.json', 'r') as inf:
     array = json.load(inf)
 
 def func1(arr, low, high):
